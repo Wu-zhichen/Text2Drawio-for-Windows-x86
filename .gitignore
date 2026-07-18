@@ -1,0 +1,88 @@
+# Windows and editor metadata
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Private user style references
+.agents/skills/figure/style-references/user/*
+!.agents/skills/figure/style-references/user/.gitkeep
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local services, logs, and caches
+*.log
+*.pid
+.cache/
+cache/
+tmp/
+temp/
+
+# Downloaded and embedded runtimes
+runtime/
+electron-*-win32-*/
+python-*-embed-amd64/
+python-*-embed-amd64.zip
+
+# Generated executables and packages
+build/
+dist/
+release/
+share/
+build-v*/
+*.exe
+*.dll
+*.msi
+*.msix
+*.appx
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.asar
+
+# Generated test and export artifacts
+coverage/
+playwright-report/
+test-results/
+*.drawio.bkp
+*.drawio.tmp
+

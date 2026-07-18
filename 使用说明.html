@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Text2Draw.io Windows 使用说明</title>
+  <style>
+    :root{color-scheme:light;font-family:"Segoe UI","Microsoft YaHei",sans-serif;color:#172033;background:#f3f5f8}
+    body{margin:0;padding:48px 24px}.page{max-width:820px;margin:auto;background:#fff;border:1px solid #e1e6ee;border-radius:22px;padding:46px 52px;box-shadow:0 18px 60px rgba(30,45,70,.09)}
+    h1{margin:0;font-size:34px;letter-spacing:-.5px}h2{margin:34px 0 12px;font-size:21px}p,li{font-size:16px;line-height:1.8;color:#4b566a}ol{padding-left:24px}code{background:#f1f3f7;border-radius:6px;padding:2px 7px;color:#3241b7}
+    .tag{display:inline-block;margin-bottom:14px;padding:6px 11px;border-radius:999px;background:#eceaff;color:#5c50df;font-weight:700;font-size:13px}.note{padding:16px 18px;border-radius:12px;background:#fff7e4;border:1px solid #f0d99a}.ok{padding:16px 18px;border-radius:12px;background:#edf9f5;border:1px solid #bde8da}a{color:#574de2}
+  </style>
+</head>
+<body><main class="page">
+  <span class="tag">Windows 10 / 11 · 64 位</span>
+  <h1>Text2Draw.io 一键使用说明</h1>
+  <p>此版本已经内置 draw.io、Python 与全部运行依赖。不要移动压缩包内的单个子文件，也不需要安装 Node.js、npm 或 Python。</p>
+
+  <h2>第一次使用</h2>
+  <ol>
+    <li>先将整个 ZIP 压缩包解压到普通文件夹，例如桌面。不要直接在压缩包预览窗口中运行。</li>
+    <li>双击顶层的 <code>开始使用 Text2Drawio.cmd</code>，也可以直接打开 <code>Text2Drawio Manager\Text2Drawio Manager.exe</code>。</li>
+    <li>在管理器中粘贴自己的 DeepSeek API Key，选择全局语言，然后点击“保存配置”和“测试连接”。</li>
+    <li>点击“一键安装”安装 draw.io 插件。</li>
+    <li>点击“启动并打开 draw.io”。以后再次使用时仍从管理器启动即可。</li>
+  </ol>
+
+  <div class="ok"><strong>文件生成：</strong>打开 draw.io 左侧的 Text2Draw.io Agent 面板，可输入提示词，也可选择 PDF、Excel、Word、PowerPoint、CSV 或文本文件后生成可编辑矢量图。模型可直接在插件输入区下方实时切换。</div>
+
+  <h2>语言设置</h2>
+  <p>管理器中的全局语言会同时应用到 draw.io 和 Text2Draw.io 插件。保存后请完全关闭 draw.io，再由管理器重新打开。</p>
+
+  <h2>可选的节点小配图</h2>
+  <p>如需 AI 节点小配图，在管理器的“AI 配置”页填写 OpenAI API Key；不填写不会影响普通矢量图生成。密钥只保存在本机的 <code>%APPDATA%\Text2Drawio\.env</code>。</p>
+
+  <h2>Windows 安全提示</h2>
+  <p class="note">当前分享版未购买代码签名证书，Windows SmartScreen 可能在首次打开时提示“Windows 已保护你的电脑”。确认压缩包来源可信后，点击“更多信息”→“仍要运行”。这不是运行故障。</p>
+
+  <h2>故障排查</h2>
+  <ol>
+    <li>确保旧版 uvicorn / Text2Draw.io 服务没有占用 <code>127.0.0.1:8765</code>。</li>
+    <li>双击 <code>验证Windows运行时.cmd</code> 检查内置组件。</li>
+    <li>在管理器“安装与诊断”中打开日志；日志位于 <code>%APPDATA%\Text2Drawio\service.log</code>。</li>
+    <li>若更新 API Key，请保存后停止并重新启动本地服务，使新配置生效。</li>
+  </ol>
+
+  <h2>隐私说明</h2>
+  <p>附件文本与提示词会发送到所选的 AI API 以生成图表；本地服务只监听 <code>127.0.0.1</code>。请勿上传无权处理的敏感文件。</p>
+</main></body>
+</html>

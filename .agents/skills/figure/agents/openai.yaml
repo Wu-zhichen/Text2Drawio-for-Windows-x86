@@ -1,0 +1,4 @@
+interface:
+  display_name: "自定义风格科研配图"
+  short_description: "参考用户素材生成位图或可编辑 draw.io 科研配图"
+  default_prompt: "Use $text2cad-docx-figure-redraw to inspect my style references, ask me to choose raster or editable draw.io output, and redraw the figures without changing body text."

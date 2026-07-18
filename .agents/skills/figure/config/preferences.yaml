@@ -1,0 +1,10 @@
+version: 1
+user_reference_dir: "style-references/user"
+default_reference_dir: "style-references/default"
+default_style_profile: "style-references/default/style-profile.yaml"
+ask_before_default: true
+ask_output_mode_when_unspecified: true
+default_raster_format: "png"
+editable_format: "drawio"
+drawio_template: "assets/drawio-scientific-template.drawio"
+preserve_source_files: true

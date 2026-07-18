@@ -1,0 +1,40 @@
+name: "text2cad-current"
+description: "当前默认的 Text2CAD 类机器学习论文科研配图风格；用户可直接修改本文件或向本目录添加新的参考图片和论文。"
+canvas:
+  background: "#FFFFFF"
+  aspect_ratios:
+    - "3:2"
+    - "16:9"
+layout:
+  flow_direction: "left-to-right"
+  grid: "12-column or equal-card grid"
+  panels: "light-gray grouped regions"
+  spacing: "generous and uniform"
+shapes:
+  cards: "thin-outline rounded rectangles"
+  icons: "consistent minimal line icons"
+  shadows: "none or very subtle"
+connectors:
+  routing: "orthogonal"
+  crossing_allowed: false
+  feedback_route: "outside the main flow"
+  arrowheads: "uniform filled block"
+palette:
+  primary: "#6C63FF"
+  input_warning: "#E07A5F"
+  data_representation: "#56B4E9"
+  execution_system: "#2A9D8F"
+  evaluation_output: "#E9C46A"
+  panel_background: "#F4F6F8"
+  outline_text: "#263238"
+typography:
+  labels: "short technical labels, one or two lines"
+  hierarchy: "three levels maximum"
+forbidden:
+  - "crossing arrows"
+  - "text overflow"
+  - "heavy gradients"
+  - "neon colors"
+  - "3D poster rendering"
+  - "watermarks"
+  - "fabricated metrics"

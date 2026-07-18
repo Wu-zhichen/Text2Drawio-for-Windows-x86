@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Codex" version="24.7.17">
+  <diagram id="scientific-template" name="Page-1">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="Editable Scientific Diagram Template" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#263238;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="700" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="panel" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F6F8;strokeColor=#D5DADF;strokeWidth=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="1460" height="600" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-a" value="Input / Requirement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE9E4;strokeColor=#E07A5F;strokeWidth=2;fontColor=#263238;fontSize=18;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="300" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-b" value="Core Process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEBFF;strokeColor=#6C63FF;strokeWidth=2;fontColor=#263238;fontSize=18;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="320" width="300" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="module-c" value="Evaluation / Output" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4CF;strokeColor=#E9C46A;strokeWidth=2;fontColor=#263238;fontSize=18;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="320" width="300" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-a-b" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#263238;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="module-a" target="module-b">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-b-c" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#263238;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="module-b" target="module-c">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="feedback" value="Feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2A9D8F;strokeWidth=2;dashed=1;endArrow=block;endFill=1;fontColor=#2A9D8F;fontSize=14;" edge="1" parent="1" source="module-c" target="module-b">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="600"/>
+              <mxPoint x="800" y="600"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note" value="Replace every sample object with project-specific native draw.io shapes. Keep connectors orthogonal and route feedback outside the main flow." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F5F3;strokeColor=#2A9D8F;strokeWidth=1;fontColor=#263238;fontSize=14;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="300" y="755" width="1000" height="70" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
