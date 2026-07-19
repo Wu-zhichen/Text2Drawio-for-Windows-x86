@@ -9,6 +9,10 @@ Text2Draw.io is a portable AI diagram assistant for Windows 10/11. It converts n
 ---
 
 ## 中文说明
+### 效果展示
+
+<img width="826" height="578" alt="ea4de4b19ba87b524221c9476184fc48" src="https://github.com/user-attachments/assets/e65d2fff-7ba8-4119-a922-f992bd796153" />
+<img width="1273" height="706" alt="image" src="https://github.com/user-attachments/assets/bc93144c-6989-4c05-bab7-1332a5e65343" />
 
 ### 功能亮点
 
